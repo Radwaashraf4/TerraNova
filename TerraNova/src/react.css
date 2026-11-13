@@ -1,0 +1,8 @@
+/* Additions for the React version */
+.hero__copy{transition:opacity .6s,visibility .6s}
+.hero__copy.is-hidden{opacity:0;visibility:hidden;pointer-events:none}
+.robot:not(.is-on) .speech{pointer-events:none}
+.speech.is-closed{display:none}
+.panel > *{transition:opacity .6s .35s,transform .6s .35s var(--ease)}
+.panel:not(.is-open) > *{opacity:0;transform:translateY(12px)}
+#root{position:relative}
